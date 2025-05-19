@@ -41,14 +41,23 @@ pip install opencv-python numpy matplotlib scikit-image
 
 ---
 
-## 🚀 How to Run
+## 🚀 How to Run the Analysis
 
-1. Clone this repository  
-2. Open `OCTA_Advanced_Analysis.ipynb` in Jupyter Notebook  
-3. Run all cells from top to bottom  
-4. Check the results and output images in the folder
+Follow these steps to reproduce the results:
+
+1. Clone this repository
+2. Open `OCTA_Advanced_Analysis.ipynb` in Jupyter Notebook
+3. Run all cells from top to bottom
+4. Output images will be saved in the same folder
 
 ---
+
+### 🖼️ Example Output: Skeleton Overlay
+
+> This is the final overlay image showing the extracted vessel skeleton (in red) on the CLAHE-enhanced OCTA background.
+
+![Skeleton Overlay](./skeleton_overlay.png)
+
 
 ## 🧪 Quantitative Output (Example)
 
