@@ -1,0 +1,69 @@
+# 📌 OCTA Retinal Vessel Quantification – Advanced Analysis
+
+This project demonstrates advanced quantification techniques for **retinal OCTA images**, including image enhancement, vessel skeleton extraction, denoising, and vessel morphology measurements using **OpenCV**, **skimage**, and **NumPy**.
+
+---
+
+## 🧠 Features
+
+- ✅ CLAHE enhancement for improving vessel visibility  
+- ✅ Otsu thresholding for adaptive binarization  
+- ✅ Small object removal to clean background noise  
+- ✅ Skeleton extraction of vessel map  
+- ✅ Quantitative metrics:
+  - Vessel density (percentage)
+  - Total vessel length (in pixels)
+  - Number of branch points
+  - Average vessel width (via distance transform)
+- ✅ Overlay visualization and image export
+
+---
+
+## 📁 Folder Structure
+
+```
+.
+├── octa_image.png               # Input retinal OCTA image
+├── skeleton_overlay.png         # Output image with skeleton overlaid
+├── OCTA_Advanced_Analysis.ipynb # Main analysis notebook
+├── README.md                    # Project description
+```
+
+---
+
+## 🔧 Requirements
+
+Install the following Python libraries:
+
+```bash
+pip install opencv-python numpy matplotlib scikit-image
+```
+
+---
+
+## 🚀 How to Run
+
+1. Clone this repository  
+2. Open `OCTA_Advanced_Analysis.ipynb` in Jupyter Notebook  
+3. Run all cells from top to bottom  
+4. Check the results and output images in the folder
+
+---
+
+## 🧪 Quantitative Output (Example)
+
+```
+🔍 Vessel Density: 84.22%
+📏 Total Vessel Length (in pixels): 247918
+🌿 Branch Points Detected: 0
+📐 Average Vessel Width: 2.32 pixels
+```
+
+---
+
+## 👩‍💻 Author
+
+Claire-bei | Master in Ophthalmology (Retina)  
+GitHub: [https://github.com/Claire-bei](https://github.com/Claire-bei)
+
+---
